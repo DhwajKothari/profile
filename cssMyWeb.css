@@ -3,15 +3,19 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  font-size: 22px;
   color: #40514e;
-  font-size:2rem;
+  line-height: 1.5;
 }
 
 .top_container {
   position: relative;
-  padding-top: 100px;
+  padding-top: 200px;
+  background-image: url(bckgnd1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   background-color: #eaf6f6;
-
+  padding-bottom: 200px;
 }
 
 .middle-container {
@@ -50,6 +54,8 @@ h2{
   color: #66bfbf;
 }
 .dev{
+  margin-top: 0;
+  font-size: 2rem;
   font-weight: normal;
 }
 h3{
@@ -69,7 +75,7 @@ p{
 }
 .profile{
   /*width: 50%;*/
-  margin: 100px auto;
+  margin: 80px auto;
 }
 .skill-row{
   width: 50%;
@@ -90,7 +96,7 @@ p{
   margin-left:30px;
 }
 .contact-me{
-    margin: 100px auto;
+    margin: 80px auto;
 }
 .footer-link{
   padding-right:1.5rem;
